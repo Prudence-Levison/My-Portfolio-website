@@ -6,17 +6,30 @@ const HeroSection = () => {
     <section>
         <div className='grid grid-cols-1 sm:grid-cols-12'>
             <div className='col-span-7 place-self-center text-center sm:text-left'>
-      <h1 className='text-white mb-4 font-extrabold text-4xl sm:text-5xl lg:text-6xl'>
+      {/* <h1 className='text-white mb-4 font-extrabold text-4xl sm:text-5xl lg:text-6xl'>
         <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'> Hello, I'm </span> Prudence 
-         </h1>
-      <p className='text-[#ADB7DE] text-base sm:text-lg mb-6 lg:text-xl'>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-       <div>
+         </h1> */}
+         <h1 className='text-white mb-4 font-extrabold text-4xl sm:text-5xl lg:text-6xl '>
+  <span className='text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-teal-600'>
+    Hello, I'm 
+  </span>
+ <span className='pl-3'>Prudence,</span> 
+</h1>
+      <p className='text-[#ADB7DE] text-base sm:text-lg mb-6 lg:text-xl'> A passionate developer who derives joy in bringing ideas to life through code. With a keen eye for detail and a love for innovation, I craft digital solutions that are both functional and beautiful. Let's explore my work and see how I can help turn your vision into reality.".</p>
+       {/* <div>
         <button className='px-6 py-3 w-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 sm:w-fit rounded-full mr-4  hover:bg-slate-200 text-white'>Hire Me</button>
         <button  className='px-6 py-3  w-full sm:w-fit rounded-full bg-transparent bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white border mt-3 border-white'>Download CV</button>
        </div>
-       
+        */}
+        <div>
+  <button className='px-6 py-3 w-full bg-gradient-to-br from-green-400 via-emerald-500 to-teal-600 sm:w-fit rounded-full mr-4 hover:bg-slate-200 text-white'>
+    Hire Me
+  </button>
+  <button className='px-6 py-3 w-full sm:w-fit rounded-full bg-gradient-to-br from-green-400 via-emerald-500 to-teal-600 hover:bg-slate-800 text-white border mt-3 border-white'>
+    Download CV
+  </button>
+</div>
+
          </div>
 
          <div className='col-span-5 place-self-center mt-4 lg:mt-0 '>
