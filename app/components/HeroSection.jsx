@@ -15,7 +15,7 @@ const HeroSection = () => {
   </span>
  <span className='pl-3'>Prudence,</span> 
 </h1>
-      <p className='text-[#ADB7DE] text-base sm:text-lg mb-6 lg:text-xl'> A passionate developer who derives joy in bringing ideas to life through code. With a keen eye for detail and a love for innovation, I craft digital solutions that are both functional and beautiful. Let's explore my work and see how I can help turn your vision into reality.".</p>
+      <p className='text-[#ADB7DE] text-base sm:text-lg mb-6 lg:text-xl'>  a Code Whisperer with a passion for crafting innovative digital solutions that bring ideas to life. With expertise in JavaScript, React, Next.js, and Tailwind CSS, I weave code into beautiful, functional experiences that exceed expectations. Let's collaborate to create something extraordinary – where technology meets creativity and functionality meets beauty..".</p>
        {/* <div>
         <button className='px-6 py-3 w-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 sm:w-fit rounded-full mr-4  hover:bg-slate-200 text-white'>Hire Me</button>
         <button  className='px-6 py-3  w-full sm:w-fit rounded-full bg-transparent bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white border mt-3 border-white'>Download CV</button>
