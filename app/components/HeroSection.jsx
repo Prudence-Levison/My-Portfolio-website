@@ -22,7 +22,7 @@ const HeroSection = () => {
   </button>
   <button className='px-6 py-3 bg-gradient-to-br from-green-400 via-emerald-500 to-teal-600 rounded-full hover:-translate-y-1 transition duration-300 text-white border border-white'>
     Download CV
-  </button>s
+  </button>
         </div>
       </div>
     </section>
