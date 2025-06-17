@@ -8,7 +8,7 @@ const ProjectData = [
   {
     id: 1,
     title: "MY-PORTFOLIO-WEBSITE",
-    description: "A platform to share my projects, skills, and story with potential clients and employers.",
+    description: "A platform to share my projects, skills, and story with potential clients and employers, showing my years of dedication and hardwork",
     images: "/projects/portfolio.jpeg",
     tag: ["All", "Web"],
     gitUrl:"/",
@@ -17,7 +17,7 @@ const ProjectData = [
   {
     id: 2,
     title: "AI-Article-Summarization-App",
-    description: " Project 2 description",
+    description: "This web application  makes it easier for you to get the whole story without clicking the link. Isn't this so lovely?",
     images: "/projects/summaryapp.jpeg",
     tag: ["All", "Web"],
     gitUrl:"/",
@@ -26,7 +26,7 @@ const ProjectData = [
   {
     id: 3,
     title: "Notification System",
-    description: "  Project 3 description",
+    description: " A system that sends notifications to my team at specifics intervals on the tasks they need to carry out.",
     images: "/projects/notification.jpeg",
     tag: ["All", "Web"],
     gitUrl:"/",
@@ -35,7 +35,7 @@ const ProjectData = [
   {
     id: 4,
     title: "Full Landing Page",
-    description: "  Project 4 description",
+    description: " A simple web applications that showcases customer's product",
     images: "/projects/hosted-landing-page.jpeg",
     tag: ["All", "Web"],
     gitUrl:"/",
@@ -44,7 +44,7 @@ const ProjectData = [
   {
     id: 5,
     title: "Calculator App",
-    description: " Project 5 description",
+    description: " A simple calaculator app that allows you do some arithmetic without having to use a physical Calculator. You can calculate on the go- anyplace and anytime",
     images:  "/projects/react-calculator.jpeg",
     tag: ["All", "Web"],
     gitUrl:"/",
@@ -53,7 +53,7 @@ const ProjectData = [
   {
     id: 6,
     title: "Youtube",
-    description: " Project 6 description",
+    description: " A replication of the Youtube Web-app, tailored to fit in this modern day application",
     images: "/projects/youtube-clone.jpeg",
     tag: ["All", "Web"],
     gitUrl:"/",
