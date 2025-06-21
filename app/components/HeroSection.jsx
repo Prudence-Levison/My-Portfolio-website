@@ -1,5 +1,6 @@
 
 import React from 'react';
+import Link from 'next/link'
 import Image from 'next/image';
 
 const HeroSection = () => {
@@ -17,12 +18,23 @@ const HeroSection = () => {
           a Code Whisperer with a passion for crafting innovative digital solutions that bring ideas to life. With expertise in JavaScript, React, Next.js, and Tailwind CSS, I weave code into beautiful, functional experiences that exceed expectations. Let's collaborate to create something extraordinary – where technology meets creativity and functionality meets beauty, and beyond, into a realm of endless possibilities.
         </p>
         <div className='flex flex-col sm:flex-row justify-center gap-4 mt-3  md:mt-6'>
-          <button className='px-6 py-3 bg-gradient-to-br from-green-400 via-emerald-500 to-teal-600 rounded-full hover:-translate-y-1 transition duration-300 text-white'>
+          <Link href="#contact">
+          <button className='px-6 py-3 bg-gradient-to-br from-green-400 via-emerald-500 to-teal-600 rounded-full hover:-translate-y-1 transition duration-300 text-white  border border-white'>
     Hire Me
   </button>
+  </Link>
+  <a
+    href="/prudence-levison-cv.pdf"
+    download
+    target="_blank"
+     rel="noopener noreferrer"
+  >
+
   <button className='px-6 py-3 bg-gradient-to-br from-green-400 via-emerald-500 to-teal-600 rounded-full hover:-translate-y-1 transition duration-300 text-white border border-white'>
     Download CV
   </button>
+  </a>
+  
         </div>
       </div>
     </section>

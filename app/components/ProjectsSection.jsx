@@ -8,20 +8,20 @@ const ProjectData = [
   {
     id: 1,
     title: "MY-PORTFOLIO-WEBSITE",
-    description: "A platform to share my projects, skills, and story with potential clients and employers, showing my years of dedication and hardwork",
+    description: 'Each project here tells a part of my story — showing how far I’ve come, what I’ve learned, and where I’m headed.',
     images: "/projects/portfolio.jpeg",
     tag: ["All", "Web"],
-    gitUrl:"/",
+    gitUrl:"https://github.com/Prudence-Levison/My-Portfolio-website.git",
     previewUrl:"/"
   },
   {
     id: 2,
     title: "AI-Article-Summarization-App",
-    description: "This web application  makes it easier for you to get the whole story without clicking the link. Isn't this so lovely?",
+    description: "This app helps you get the whole gist of any article without opening the link — clean, quick, and super helpful",
     images: "/projects/summaryapp.jpeg",
     tag: ["All", "Web"],
-    gitUrl:"/",
-    previewUrl:"/"
+    gitUrl:"https://github.com/Prudence-Levison/Open-AI-article-summarization.git",
+    previewUrl:"https://openaiapplication.netlify.app/"
   },
   {
     id: 3,
@@ -29,35 +29,35 @@ const ProjectData = [
     description: " A system that sends notifications to my team at specifics intervals on the tasks they need to carry out.",
     images: "/projects/notification.jpeg",
     tag: ["All", "Web"],
-    gitUrl:"/",
+    gitUrl:"https://github.com/Prudence-Levison/Notification-System.git",
     previewUrl:"/"
   },
   {
     id: 4,
     title: "Full Landing Page",
-    description: " A simple web applications that showcases customer's product",
+    description: " A clean landing page that puts your product front and center. It was built to impress at first glance",
     images: "/projects/hosted-landing-page.jpeg",
     tag: ["All", "Web"],
-    gitUrl:"/",
-    previewUrl:"/"
+    gitUrl:"https://github.com/Prudence-Levison/Landing-Page.git",
+    previewUrl:"https://prudyslandingpage.netlify.app/"
   },
   {
     id: 5,
     title: "Calculator App",
-    description: " A simple calaculator app that allows you do some arithmetic without having to use a physical Calculator. You can calculate on the go- anyplace and anytime",
+    description: " A handy calculator app that lets you do quick math anywhere. Now, you don't need a physical calculator. ",
     images:  "/projects/react-calculator.jpeg",
     tag: ["All", "Web"],
-    gitUrl:"/",
-    previewUrl:"/"
+    gitUrl:"https://github.com/Prudence-Levison/Calclator-App.git",
+    previewUrl:"https://prudys-calculator-app.netlify.app/"
   },
   {
     id: 6,
     title: "Youtube",
-    description: " A replication of the Youtube Web-app, tailored to fit in this modern day application",
+    description: "A full replica of the YouTube web app, rebuilt to mirror its layout, features, and user experience",
     images: "/projects/youtube-clone.jpeg",
     tag: ["All", "Web"],
-    gitUrl:"/",
-    previewUrl:"/"
+    gitUrl:"https://github.com/Prudence-Levison/Youtube-Clone.git",
+    previewUrl:"https://youtube-clone-by-pruddy.netlify.app/"
     
   }
 ];
@@ -73,7 +73,7 @@ const ProjectsSection = () => {
 
   return (
     <>
-    <h2 className='text-center text-4xl font-bold mt-4 text-white'>My Projects</h2>
+    <h2 className='text-center text-4xl font-bold mt-4 text-white' id="projects">My Projects</h2>
     <div className='text-white flex flex-row justify-center items-center gap-2 py-6'>
      <ProjectTag onClick={handleTagChange} name="All" isSelected={tag ==="All"}/>
      <ProjectTag onClick={handleTagChange} name="Web" isSelected={tag ==="Web"}/>

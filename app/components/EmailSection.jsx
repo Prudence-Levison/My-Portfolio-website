@@ -1,6 +1,6 @@
 'use client';
 import React, { useState } from 'react';
-import Github from '../../public/images/github.svg';
+import Github from "../../public/images/github-icon.png";
 import Linkedin from '../../public/images/linkedin-icon.svg';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -45,7 +45,7 @@ const EmailSection = () => {
   };
 
   return (
-    <section className='grid md:grid-cols-2 my-12 py-12 gap-4 relative'>
+    <section className='grid md:grid-cols-2 my-12 py-12 gap-4 relative' id="contact">
       <div className='bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-green-900  to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2'></div>
 
       <div className='z-10'>
@@ -54,12 +54,13 @@ const EmailSection = () => {
           I'm on the lookout for new opportunities! Whether it's a question or just a quick hello, don’t hesitate to reach out — I’ll get back to you soon.
         </p>
 
-        <div className='socials flex flex-row gap-2'>
-          <Link href='https://github.com'>
-            <Image src={Github} alt='github-icon' />
+        <div className='socials flex flex-row gap-1'>
+          <div className='p-2'>
+          <Link href='https://github.com/Prudence-Levison'>
+            <Image src={Github} alt='github-icon' width={35} height={35}/>
           </Link>
-
-          <Link href='https://linkedin.com'>
+           </div>
+          <Link href='https://www.linkedin.com/in/prudence-chikwumnazu-levison-18892b209?utm_source=share&utm_'>
             <Image src={Linkedin} alt='linkedin-icon' />
           </Link>
         </div>
