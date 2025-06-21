@@ -58,8 +58,8 @@ const AboutSection = () => {
       <Image src='/images/about-image.png' width={500} height={500} alt='About Us'/>
       <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
         <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
-        <p className='text-base lg:text-lg'>"Meet Prudence Levison, a front-end wizard weaving magic with JavaScript, React, Next.js, and Tailwind CSS.
-           With a keen eye for design and a passion for performance, I craft web experiences that are both visually stunning and lightning-fast. Dive into my portfolio to discover innovative solutions, clever code, and a dash of creativity."
+        <p className='text-base lg:text-lg'> Prudence Levison, a front-end wizard weaving magic with JavaScript, React, Next.js, and Tailwind CSS.
+           With a keen eye for design and a passion for performance, I craft web experiences that are both visually stunning and lightning-fast. Dive into my portfolio to discover innovative solutions, clever code, and a dash of creativity.
 </p>
 
 <div className='flex flex-row justify-start mt-8'>
