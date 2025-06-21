@@ -36,7 +36,7 @@ const ProjectData = [
     id: 4,
     title: "Full Landing Page",
     description: " A clean landing page that puts your product front and center. It was built to impress at first glance",
-    images: "/projects/hosted-landing-page.jpeg",
+    images: "/projects/landingpage.jpeg",
     tag: ["All", "Web"],
     gitUrl:"https://github.com/Prudence-Levison/Landing-Page.git",
     previewUrl:"https://prudyslandingpage.netlify.app/"
