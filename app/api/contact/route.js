@@ -1,7 +1,7 @@
 import { Resend } from 'resend';
 import { NextResponse } from 'next/server';
 
-const resend = new Resend("re_JinEdaFU_BLFZJk1uRpJ8ZcYxmvMXnafY");
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(req) {
   const body = await req.json();
@@ -10,7 +10,6 @@ export async function POST(req) {
   try {
     const { error } = await resend.emails.send({
       from: 'Contact Form <onboarding@resend.dev>',
-      to: ['uzoekwelevisonc@gmail.com'], 
       to: ['uzoekwelevisonc@gmail.com'], 
       subject: subject,
       react: (
