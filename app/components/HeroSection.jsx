@@ -24,7 +24,7 @@ const HeroSection = () => {
   </button>
   </Link>
   <a
-    href="/prudence-levison-cv.pdf"
+    href="/prudence-levisons-cvv.pdf"
     download
     target="_blank"
      rel="noopener noreferrer"
