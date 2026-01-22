@@ -12,10 +12,10 @@ const HeroSection = () => {
           <span className='pl-3'>Prudence,</span>
         </h1>
         <h2 className='text-[#ADB7DE] text-lg sm:text-xl md:text-2xl lg:text-3xl mb-6 animate-pulse duration-5000'>
-  A Software Developer & Tech Guru
+        Fullstack Developer | React | Next.js | C# | .NET | SQL
 </h2>
         <p className='text-[#ADB7DE] text-sm sm:text-base md:text-lg lg:text-xl mb-6 leading-relaxed'>
-          a Code Whisperer with a passion for crafting innovative digital solutions that bring ideas to life. With expertise in JavaScript, React, Next.js, and Tailwind CSS, I weave code into beautiful, functional experiences that exceed expectations. Let's collaborate to create something extraordinary – where technology meets creativity and functionality meets beauty, and beyond, into a realm of endless possibilities.
+          I’m a Fullstack Developer with experience in React, Next.js, and modern frontend tools, as well as C# and .NET backend development. I build scalable web applications and APIs, with databases in SQL Server, delivering functional, clean, and efficient solutions. I’m passionate about continuous learning and creating applications that solve real-world problems.
         </p>
         <div className='flex flex-col sm:flex-row justify-center gap-4 mt-3  md:mt-6'>
           <Link href="#contact">

@@ -77,7 +77,7 @@ const ProjectsSection = () => {
     <div className='text-white flex flex-row justify-center items-center gap-2 py-6'>
      <ProjectTag onClick={handleTagChange} name="All" isSelected={tag ==="All"}/>
      <ProjectTag onClick={handleTagChange} name="Web" isSelected={tag ==="Web"}/>
-     <ProjectTag onClick={handleTagChange} name="Mobile" isSelected={tag  ==="Mobile"}/>
+     <ProjectTag onClick={handleTagChange} name="Backend" isSelected={tag  ==="Backend"}/>
     </div>
     <div className='grid md:grid-cols-3 gap-8 md:gap-12'>
       {filteredProjects.map((project) => (

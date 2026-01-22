@@ -9,12 +9,14 @@ const TAB_DATA =[
     id: "Skills",
     content :(
       <ul className='list-disc pl-2'>
-        <li>Nodejs</li>
-        <li>JavaScript</li>
-        <li>TypeScript</li>
-        <li>React</li>
-        <li>Nextjs</li>
-        <li>TailwindCSS</li>
+        <li>C#</li>
+  <li>ASP.NET Core</li>
+  <li>Web API / RESTful APIs</li>
+  <li>SQL Server / Entity Framework Core</li>
+  <li>JavaScript / TypeScript</li>
+  <li>React / Next.js</li>
+  <li>Tailwind CSS</li>
+  <li>Git / GitHub</li>
       </ul>
     )
   },
@@ -35,9 +37,10 @@ const TAB_DATA =[
     id: "Certification",
     content :(
       <ul className='list-disc pl-2'>
-        <li>FemCode</li>
-        <li>Federal University of Technology, Owerri</li>
-        <li>Babcock University</li>
+      <li>C# Fundamentals – Udemy (Mosh Hamedani) Completed</li>
+      <li>ASP.NET Core Web API – Udemy (Mosh Hamedani)  Completed</li>
+      <li>SQL / Database Fundamentals – Self-taught via YouTube </li>
+      <li>FemCode Fullstack Development Program Completed</li>
       </ul>
     )
   }
@@ -58,10 +61,8 @@ const AboutSection = () => {
       <Image src='/images/about-image.png' width={500} height={500} alt='About Us'/>
       <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
         <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
-        <p className='text-base lg:text-lg'> Prudence Levison, a front-end wizard weaving magic with JavaScript, React, Next.js, and Tailwind CSS.
-           With a keen eye for design and a passion for performance, I craft web experiences that are both visually stunning and lightning-fast. Dive into my portfolio to discover innovative solutions, clever code, and a dash of creativity.
+        <p className='text-base lg:text-lg'>  Prudence Levison, a Fullstack Developer with experience in React, Next.js, and Tailwind CSS for frontend, and C#/.NET with SQL Server for backend development. I build scalable web applications and APIs that are functional, efficient, and visually appealing. I enjoy solving real-world problems with code, continuously learning, and creating solutions that make an impact.
 </p>
-
 <div className='flex flex-row justify-start mt-8'>
   <TabButton 
   selectTab={() => handleToChange ("Skills")} active={tab === "Skills"} >

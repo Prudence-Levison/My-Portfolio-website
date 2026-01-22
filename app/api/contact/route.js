@@ -12,13 +12,14 @@ export async function POST(req) {
       from: 'Contact Form <onboarding@resend.dev>',
       to: ['uzoekwelevisonc@gmail.com'], 
       subject: subject,
-      react: (
-        <div>
-          <p><strong>Email:</strong> {email}</p>
-          <p><strong>Message:</strong> {message}</p>
-        </div>
-      ),
-    });
+     subject: subject,
+     html: `
+    <div>
+      <p><strong>Email:</strong> ${email}</p>
+      <p><strong>Message:</strong> ${message}</p>
+    </div>
+  `,
+});
 
     if (error) return NextResponse.json({ error }, { status: 500 });
 
